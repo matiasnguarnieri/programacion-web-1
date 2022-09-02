@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(187, 187, 187);
+}
+
+h1 {
+    color: rgb(0, 162, 255);
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    margin: 20px;
+}
+
+.resaltado {
+    background-color: #ffe590c5;
+    font-weight: bold;
+}
+
+#principal {
+    background-color: #d48319;
+    font-style: italic;
+}
+
+#piepagina {
+    color: white;
+    background-color: rgb(77, 33, 33);
+}
+
+footer a {
+    text-decoration: none;
+    color: red;
+}

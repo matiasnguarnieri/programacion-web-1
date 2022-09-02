@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;  
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;
+}
+
+header {
+    background-color: #91AAF2;
+}
+
+nav {
+    padding: 15px;
+    background-color: aqua;
+}
+
+nav ul li {
+    padding: 5%;
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration:none
+}
+
+nav ul li a:visited {
+    color: white;
+}
+
+nav ul li a:hover {
+    color: darkgoldenrod;
+}
+
+#carritoIcon {
+    width: 20px;
+    height: 20px;
+    display: inline;
+}
+
+#logo {
+    display: inline;
+}
+
+#buscador {
+    display: inline;
+}
+
+#sliderPrincipal {
+    background-color: #91F2D2;
+    width: 100%;
+    height: 300px;
+}
+
+.subtitlosPrincipal {
+    text-align: center;
+    padding: 20px;
+}
+
+.categoriasPrincipal {
+    background-color: #97CCFC;
+    width: 100%;
+    height: 150px;
+}
+
+.productosMasVendidos {
+    background-color: #91F2D2;
+    width: 100%;
+    height: 250px;
+}
+
+.formasDePago {
+    background-color: #206c53;
+    width: 100%;
+    height: 250px;
+}
+
+.formularioLogin {
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.loginOrdenado {
+    margin: 10px;
+    padding: 10px;
+    display: inline;
+}
+
+.olvidasteContraseña {
+    margin: 10px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.botonLogin {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+}
+
+.botonLogin:hover {
+    background-color: azure;
+    color: #97CCFC;
+}
+
+#logoLogin {
+    margin: 10px;
+    height: 30px;
+}
+
+.pisoDto {
+    display: inline;
+    width: 30px;
+    height: 20px;
+}
+
+footer {
+   background-color: #95D5E6; 
+}

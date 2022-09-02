@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guarnieri Matias Nicolas</title>
+  </head>
+  <body>
+    <header>
+      <h1>Guarnieri Matias Nicolas</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Enviame tus sugerencias!</h2>
+        <form action="#" method="post" enctype="application/x-www-form-urlencoded" autocomplete="on">
+            <label for="provincia">Provincia:</label>
+            <select name="provincia" id="provincia">
+              <option value="">Seleccione una opcion</option>
+              <option value="1">Buenos Aires</option>
+              <option value="2" selected>C.A.B.A.</option>
+              <option value="3">Córdoba</option>
+            </select><br><br>
+            
+            <p>Forma de pago</p>
+            <label for="tarjeta">Tarjeta</label>
+            <!-- Si comparten el mismo name solo se puede mantener presionado uno solo a la vez -->
+            <input type="radio" id="tarjeta" name="forma-pago" value="tarjeta">
+            <label for="efectivo">Efectivo</label>
+            <!-- Value es el atributo que permite enviar el dato -->
+            <input type="radio" id="efectivo" name="forma-pago" value="efectivo">
+            <br><br>
+
+            <label for="condiciones">Condiciones</label>
+           <input type="checkbox" name="condicones" id="condiciones">
+            <br><br> 
+
+            <datalist id="materias">
+              <option value="Programacion Basica 1">
+              <option value="Diseño Grafico">
+              <option value="Matematica">
+            </datalist>
+
+            <input type="text" id="materia" name="materia" list="materias"> <br><br>
+            <input type="submit"  value="Enviar">
+            <br><br>
+
+            <p>Ubicacion</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.3643336746163!2d-58.56499388372093!3d-34.670753168557404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc62cc3ef7083%3A0x8867107f425fade5!2sUniversidad%20Nacional%20de%20La%20Matanza!5e0!3m2!1ses-419!2sar!4v1661987437507!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Guarnieri Matias Nicolas</p>
+      <p>matiasnguarnieri@hotmail.com</p>
+      <p><a href="https://www.unlam.edu.ar/" target="_blank">Unlam</a></p>
+      <p><a href="sugerencias.html">Arriba</a></p>
+      <p><a href="sugerencias.html">Sugerencias</a></p>
+    </footer>
+  </body>
+</html>
